@@ -1,0 +1,55 @@
+<!doctype html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Мова HTML </title>
+</head>
+<body>
+<body bgcolor="lightblue">.
+<h1>Опитування: </h1)
+
+<h2>  Дайте відповіді на запитання анкети :)</h2>
+<form method="post" action="mailto:nadiya@ukr.net">
+
+<h3>Прізвище, ім'я *</h3>
+<input type="text" name="name" value="" placeholder="Вкажи прізвище, ім'я"  />
+<h3>Стать *</h3>
+Жінка <input type = "radio" name = "become" value ="female"/>
+Чоловік <input type = "radio" name = "become" value ="male" checked/>
+<h3>1. Чи визначилися Ви з вибором професії *</h3>
+Так <input type = "radio" name = "proffesion" value ="yes"/>
+Hi <input type = "radio" name = ”proffesion" value =“no” checked/>
+<h3>2.Який ваш улюблений шкільний предмет? *</h3>
+<input type = "checkbox" name = “subject" />Математика<br>
+<input type = "checkbox" name = "subject" />Біологія<br>
+<input type = "checkbox" name = "subjectt" />Англійська мова<br>
+<input type = "checkbox" name = "subject" />Історія<br>
+<input type = "checkbox" name = "subject" />Географія<br>
+<input type = "checkbox" name = "subject" />Інформатика<br>
+<input type = "checkbox" name = "subject" />Фізична культура<br>
+<input type = "checkbox" name = "subject" />Українська мова<br>
+<h3>3. Чим Ви думаєте зайнятися після закінчення школи? </h3>
+<select name="zanyattya">
+<option>продовжити навчання у вузах</option>
+<option>вступити в ПТУ, технікум, середній спеціальний начвальний заклад</option>
+<option>поєднувати роботу з навчанням</option>
+<option>піти працювати на виробництво</option>
+<option>не знаю, чим я буду займатися</option>
+</select>
+<h3>4.Ha що Ви орієнтуєтеся, обираючи професію? *</h3>|
+<input type = "checkbox" name = "proffesion" />принести користь суспільству<br> <input type = "checkbox" name = "proffesion" />ця професія престижна<br>
+<input type = "checkbox" name = "proffesion" />хороша зарплата<br>
+<input type = "checkbox" name = "proffesion" />цікава і змістовна робота<br>
+<input type = "checkbox" name = "proffesion" />робота, відповідає моїм можливостям<br> <h3>Електронна пошта*</h3>
+<input type="email" name="email" placeholder="nadiya@ukr.net" />
+<h3> Телефон</h3>
+<input type="tel" name="telephone" />
+<h3>Якій професії, спеціальності Ви хотіли б присвятити себе? *</h3> <textarea name="propozycii"
+placeholder="y повідомленні має бути більше, ніж 20 символів" >
+</textarea>
+cinput type="submit" уа1ие="Надіслати" id="my_button" />
+<input type="reset" уа1ие="0чистити" id="my_button" />
+<p>* Поля, обов'язкові для заповнення </р>
+</form>
+</body>
+</html>
